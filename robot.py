@@ -4,8 +4,8 @@ if not mt5.initialize():
      print("initialize() failed, error code =",mt5.last_error())
      quit()
 
-account=35564619
-password="pDn3HkjZ"
+account=123456 #this is the login
+password=" " # password to be entered
 authorize_login = mt5.login(account,password)
 if authorize_login:
      print(mt5.account_info())
